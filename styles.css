@@ -248,6 +248,8 @@ h1 {
             white-space: nowrap;
             will-change: transform;
             animation: marquee 40s linear infinite;
+            display: flex;
+            gap: 10px;
         }
     }
 }
