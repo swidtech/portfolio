@@ -170,6 +170,19 @@ header {
     }
 }
 
+h1 {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 10px;
+    small {
+        display: block;
+        font-weight: 100;
+    }
+    @media (max-width:1024px) {
+        font-size: 48px;
+    }
+}
+
 .hero {
     display: flex;
     @media (max-width:1024px) {
@@ -183,6 +196,11 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        span {
+            @media (max-width:1024px) {
+                display: none;
+            }
+        }
         .call-to-action {
             margin-top: 20px;
             margin-bottom: 10px;
