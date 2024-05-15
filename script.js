@@ -1,4 +1,4 @@
-function toggleMobileMenue(){
+function toggleMobileMenu(){
     document.getElementById("menu").classList.toggle
     ("active");
 }
